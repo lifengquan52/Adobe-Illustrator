@@ -1,0 +1,34 @@
+{
+    "id": "YOUR_ID_HERE",
+    "name": "Hello World sample plugin",
+    "version": "0.1.1",
+    "description": "创建矩形.",
+    "summary": "小结这个插件",
+    "languages": ["en"],
+    "author": "Your Name",
+    "helpUrl": "https://mywebsite.com/help",
+
+    "icons": [
+        {
+            "width": 24,
+            "height": 24,
+            "path": "images/icon@1x.png"
+        },
+        {
+            "width": 48,
+            "height": 48,
+            "path": "images/icon@2x.png"
+        }
+    ],
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Create Rectangle",
+        "commandId": "createRectangle"
+      }
+    ]
+  }
